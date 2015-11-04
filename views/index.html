@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Playground to explore Personal Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+
+</head>
+<body>
+<ul id="slide-out" class="side-nav fixed">
+    <li><a href="#!">First Sidebar Link</a></li>
+    <li><a href="#!">Second Sidebar Link</a></li>
+</ul>
+<a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+<main>
+
+<h1>Hello World</h1>
+
+
+<div class="row">
+    <form class="col s12">
+        <div class="row">
+            <div class="input-field col s6">
+                <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="password" type="password" class="validate">
+                <label for="password">Password</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field cols4 offset-2">
+                <label for="test5">Lauren Beatty</label>
+            </div>
+            <div class="col s6 offset-s3">
+                <p class="range-field">
+                    <input type="range" id="test5" min="0" max="5" />
+                </p>
+            </div>
+        </div>
+    </form>
+</div>
+
+</main>
+<script type="text/javascript" src="/javascripts/angular.min.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+<script type="text/javascript" src="/javascripts/client.js"></script>
+</body>
+</html>
